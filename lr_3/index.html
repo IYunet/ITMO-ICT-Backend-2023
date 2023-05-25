@@ -84,6 +84,12 @@
 </li>
 
                         
+                            
+<li >
+    <a href="../lr_4/">Лабораторная №4</a>
+</li>
+
+                        
                         </ul>
                     </li>
                 
@@ -136,7 +142,7 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="next" href="../hw_1/">
+                        <a rel="next" href="../lr_4/">
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
@@ -364,7 +370,7 @@ class GoodsController {
     try {
       const redirectedResponse = await axios.request({
         method: request.method,
-        url: `http://localhost:9091${request.originalUrl}`,
+        url: `http://localhost:3000${request.originalUrl}`,
         data: request.body,
       });
 
